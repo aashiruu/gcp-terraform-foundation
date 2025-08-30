@@ -84,7 +84,7 @@ This is the first module that should be run in a new GCP environment to establis
 
 
 
-## 🧪 Testing
+## Testing
 
 After a successful `terraform apply`, verify the resources:
 
@@ -92,7 +92,7 @@ After a successful `terraform apply`, verify the resources:
 2.  **Verify VPC:** Navigate to **VPC network > VPC** in the Host Project. You should see the `foundation-vpc` with its subnets.
 3.  **Verify IAM:** In the Host Project's IAM page, check that your groups are assigned the correct roles.
 
-## 🧹 Cleaning Up
+## Cleaning Up
 
 **Warning:** This will delete all resources created by the module, including the projects and all data within them.
 
